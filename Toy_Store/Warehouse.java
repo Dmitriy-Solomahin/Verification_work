@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Warehouse {
+    // класс работы со складом
     private ArrayList<Toy> priceList;
 
     public Warehouse(){
@@ -20,6 +21,7 @@ public class Warehouse {
     }
 
     public Toy random(){
+        // выбор рандомной игрушки с опорой на ее вес
         int size = priceList.size();
         double bigSize = 0;
         int index = 0;

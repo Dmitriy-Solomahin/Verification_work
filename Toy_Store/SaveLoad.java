@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class SaveLoad {
-
+    // класс распаковки и сохранения в файл
     static String path = "file.txt";
     
     public static void load(Warehouse warehouse){

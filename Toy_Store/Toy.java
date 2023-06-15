@@ -1,5 +1,5 @@
 public class Toy {
-
+    // основной класс игрушек
     private static int id = 1;
 
     private String name;

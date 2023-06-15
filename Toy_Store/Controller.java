@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Controller {
+    // класс контроллера
     public static void start(){
         Warehouse warehouse = new Warehouse();
         SaveLoad.load(warehouse);
